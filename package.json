@@ -7,9 +7,17 @@
     "dev": "live-server --port=3000 --host=localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linajja/5-coming-soon.git"
+  },
   "keywords": [],
-  "author": "Lina",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linajja/5-coming-soon/issues"
+  },
+  "homepage": "https://github.com/linajja/5-coming-soon#readme",
   "devDependencies": {
     "live-server": "^1.2.1"
   }
