@@ -3,16 +3,14 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Sing-up
+# Coming-soon
 
-_5-Coming soon_
+_5-Coming-soon_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://linajja.github.io/4-Sign-up/
-
-Design: [Sing-up](https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png)
-
+Site published at: https://linajja.github.io/5-coming-soon/
+Design: [Coming soon] https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
 ## Project features
 
 - responsive design
