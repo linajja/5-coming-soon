@@ -1,19 +1,18 @@
 .container {
     display: inline-block;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 60px 0;
 }
 .container > .row {
     display: inline-block;
     width: 800px;
-    margin-left: calc(50% - 400px);
+    margin-left: 0 calc(50% - 400px);
 
 }
 .container > .row-short {
     display: inline-block;
     width: 600px;
-    margin-left: calc(50% - 300px);
+    margin-left: 0 calc(50% - 300px);
     
 }
 
@@ -21,6 +20,7 @@
      display: inline-block;
      float: left;
      width: 50%;
+     margin: 0 0 60px;
     
 }
 .container. right {
@@ -31,12 +31,12 @@
 @media (max-width: 900px){
     .container > .row {
         width: 600px;
-        margin-left: calc(50% - 300px);
+        margin-left: 0 calc(50% - 300px);
 }
 @media (max-width: 900px){
     .container > .row-short {
         width: 400px;
-        margin-left: calc(50% - 200px);
+        margin-left: 0 calc(50% - 200px);
 }
 }
 @media (max-width: 460px){
