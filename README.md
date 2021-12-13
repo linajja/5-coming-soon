@@ -14,10 +14,12 @@ Design: [Coming soon] https://cdn.discordapp.com/attachments/850245533838868480/
 ## Project features
 
 - responsive design
+- Github pages
+- FontAwesome icons
 - HTML form
-- CSS bacjground images
-- CSS position absolute
-- CSS blur effect
+- CSS animation
+- CSS background images
+
 
 ## Authors
 
