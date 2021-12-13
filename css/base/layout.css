@@ -16,6 +16,18 @@
     margin-left: calc(50% - 300px);
     
 }
+
+.container. left {
+     display: inline-block;
+     float: left;
+     width: 50%;
+    
+}
+.container. right {
+    display: inline-block;
+    float: right;
+    width: 40%;
+}
 @media (max-width: 900px){
     .container > .row {
         width: 600px;
