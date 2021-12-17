@@ -117,4 +117,12 @@ footer.container {
 .social {
 }
 
+.footer > .logo {
+  max-height: 50px;
+  width: 100px;
+  margin: 50px 0;
+  object-fit: contain;
+  object-position: top;
+}
+
 /* FOOTER end */ ;
