@@ -1,0 +1,27 @@
+.form  {
+    display: inline-block;
+    width: 100%;
+}
+  
+
+.form > .input {
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 18px;
+    float: left;
+    line-height: 1.5em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0.2em;
+}
+.form > textarea {
+    width: 100%;
+    min-height: 100px;
+    height: 150px;
+    resize: none;
+
+}
+.form * {
+
+   outline: 1px solid var(--secondary-color);
+}
