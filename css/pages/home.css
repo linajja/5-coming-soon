@@ -143,7 +143,7 @@ footer .trio > p {
   padding: 0 10px;
   position: relative;
 }
-footer > .trio > p::before {
+footer .trio > p::before {
   content: '';
   display: inline-block;
   width: 1px;
@@ -154,7 +154,7 @@ footer > .trio > p::before {
   left: 0;
   transform: translate(-50%, -50%);
 }
-footer > .trio > p:first-child::before {
+footer .trio > p:first-child::before {
   display: none;
 }
 
