@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-<link rel="manifest" href="./favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/sfari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./css/pages/home.css">
@@ -19,7 +18,7 @@
     <section class="container bg-primary hero">
         <div class="row-short">
             <img class="logo" src="./img/icon-logo.png" alt="Logo">
-            <h1>Coming soon</h1>
+            <h1 class="main-title">Coming soon</h1>
             <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia porro excepturi molestiae dolorum odio fuga repellendus qui esse optio!</p>
             <div class="clock">
                 <div class="time">
@@ -38,29 +37,30 @@
                     <div class="value">39</div>
                     <div class="title">Seconds</div>
                 </div>
-                CLOCK
             </div>
             <form class="form">
-                SUBSCRIBE FORM
+                <label for="email">Email</label>
+                <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email" value="">
+                <button class="btn" type="submit">Send message</button>
             </form>
             <div class="mouse">
                 MOUSE
             </div>
-    </div>
+       </div>
     </section>
     <main class="container">
         <div class="row">
           <div class="column left">
-            <h2 class="content-title">About startup</h2>
+            <h2 id="about_startup" class="content-title">About startup</h2>
             <p class="content-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a class="link" href="#">Matrox</a> Eos, ex architecto natus dolorem iusto modi tempora ullam molestiae labore dignissimos ab repudiandae nemo inventore nulla quasi ad rem deleniti soluta.</p>
             <div class="progress-bar">
                 <div class="top">
                    <div class="title">UX Design</div>
-                   <div class="value">90%</div>
+                   <div class="value">77%</div>
                    </div>
                    <div class="bottom">
-                    <div class="bar" style="width: 90%;"></div>
-                    </div>
+                    <div class="bar" style="width: 77%;"></div>
+                   </div>
             <div class="progress-bar">
                     <div class="top">
                        <div class="title">Web Design</div>
@@ -79,33 +79,44 @@
                     <div class="bar" style="width: 50%;"></div>
                 </div>
             </div>
+            </div>
            <div class="column right">
-            <h2 class="section-title">Have any questions</h2>
-            <p class="content-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a class="link" href="mailto:vardenis@pastas.xyz">vardenis@pastas.xyz</a> Eos, ex architecto natus dolorem iusto modi tempora ullam molestiae labore dignissimos ab repudiandae nemo inventore nulla quasi ad rem deleniti soluta.</p>
+            <h2 id="questions" class="content-title">Have any questions?</h2>
+            <p class="content-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<a class="link" href="mailto:vardenis@pastas.xyz">vardenis@pastas.xyz</a> Eos, ex architecto natus dolorem iusto modi tempora ullam molestiae labore dignissimos ab repudiandae nemo inventore nulla quasi ad rem deleniti soluta.</p>
             <form class="form">
-              MESSAGE FORM
-            </form>
-           </div>
+                     <label for="name">Name</label>
+                     <input id="name" class="input" type="text" placeholder="Name" required autocomplete="name" value="">
+                     <label for="email">Email</label>
+                     <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email" value="">
+                     <label for="name">Message</label>
+                     <textarea id="message" class="input" name="" id="" placeholder="Message" required autocomplete="off"></textarea>
+                     <button class="btn" type="submit">Send message</button>
+             </form>
+            </div>
         </div>
     </main>
     <footer class="container bg-primary">
-        <div class="row">
-            <a href="https://example.com" target="-blank" class="fa fa-facebook-official" aria-hidden="true"></a>
-            <a href="https://example.com" target="-blank" class="fa fa-twitter" aria-hidden="true"></a>
-            <a href="https://example.com" target="-blank" class="fa fa-dribbble" aria-hidden="true"></a>
-            <a href="https://example.com" target="-blank" class="fa fa-tumblr" aria-hidden="true"></a>
-            <a href="https://example.com" target="-blank" class="fa fa-linkedin" aria-hidden="true"></a>
-            <a href="https://example.com" target="-blank" class="fa fa-instagram" aria-hidden="true"></a>
-            <a href="https://example.com" target="-blank" class="fa fa-wifi" aria-hidden="true"></a>
-
+        <div class="row socials">
+            <a href="https://example.com" target="-blank" class="fa fa-facebook social"></a>
+            <a href="https://example.com" target="-blank" class="fa fa-twitter social"></a>
+            <a href="https://example.com" target="-blank" class="fa fa-dribbble social"></a>
+            <a href="https://example.com" target="-blank" class="fa fa-tumblr social"></a>
+            <a href="https://example.com" target="-blank" class="fa fa-linkedin social"></a>
+            <a href="https://example.com" target="-blank" class="fa fa-instagram social"></a>
+            <a href="https://example.com" target="-blank" class="fa fa-wifi social"></a>
+            <a href="https://example.com" target="-blank" class="fa fa-rss social"></a>
+            <a href="#" class="fa fa-angle-up btn btn-round btn-icon back-to-top"></a>
         </div>
         <div class="row-short">
-            FOOTER CONTENT
+            <img src="./img/logo-white.png" alt=Logo" class="logo">
+            <div class="trio">
+            <p>Copyright &copy; 2021 <a href="#" class="link">Matrox</a></p>
+            <p> All rights reserved</p>
+            <p>Designed by <a href="#"" target="_blank" class="link">Trendy Theme</a></p>
+        </div>  
+            <p>Lorem <span class="dollar">17</span> ipsum dolor sit amet consectetur adipisicing elit. Asperiores facilis beatae <a href="#" target="_blank" class="link">200+</a> hic necessitatibus, magnam neque! Itaque sunt, repellat quisquam <a href="#" target="_blank" class="link">Matrox</a> assumenda maiores minima consequuntur quasi ea atque iusto repudiandae cupiditate iste.</p>
         </div>
     </footer>
-    <title>Sign up</title>
-</head>
-<body>
-    Content
 </body>
+
 </html>
