@@ -1,7 +1,7 @@
 .clock {
     display: inline-block;
     width: 100%;
-    color: #ffff;
+    color: #fff;
     
 }
 .clock > .time {
@@ -14,23 +14,17 @@
 .clock > .time > .value {
     display: inline-block;
     width: 100%;
+    font-family: cursive;
     font-size: 50px;
     font-weight: bold;
-    font-family: cursive;
 }
-.clock > . time > .title {
+.clock > .time > .title {
     display: inline-block;
     width: 100%;
     text-transform: uppercase;
-    
 }
 @media(max-width: 480px){
     .clock > .time {
         width: 50%;
-    
     }
-     .clock > .time: :nth-child(1),
-     .clock > .time: :nth-child(2) {
-        margin-bottom: 30px;
-     }
 }
